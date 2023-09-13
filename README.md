@@ -27,7 +27,7 @@ In this project, I created a robust data model using the Customers, Employees, O
 One of the key steps in building this data model was establishing relationships between the various tables. These relationships are essential for connecting data from different tables and performing meaningful analysis. Here are the relationships we identified and established:
 1.	The "Orders" table had foreign keys for "Customer ID" and "Employee ID," linked respectively to the "Customers" and "Employees" tables.
 2.	The "Order Details" table featured foreign keys for "Order ID" and "Product ID," connecting it to the "Orders" and "Products" tables.
-3.	The "Shippers" table contained a foreign key for "Shipper ID" that linked to the "Order" table.
+3.	The "Shippers" table contained a foreign key for "Shipper ID" that linked to the "Orders" table.
 4.	The "Categories" table contained a foreign key for "Category ID” that linked to the "products" table.
 
 ![](Model.jpg)
@@ -48,7 +48,7 @@ The analysis of the Northwind Traders data aims to gain valuable insights into t
 
 ![](KPI.jpg)
 
-### WHAT ARE THE TOP 5 BESTSELLING PRODUCT IN TERMS OF REVENUE?
+#### WHAT ARE THE TOP 5 BESTSELLING PRODUCT IN TERMS OF REVENUE?
 In the visualization section, the x-axis featured product names, while the y-axis displayed total revenue, creating a chart to depict their relationship. To spotlight the top revenue earners, a "Top N" filter was applied, revealing the leading 5 products. A clustered column chart was chosen for its suitability in comparing product names side by side. The result was a clustered column chart with product names on the x-axis and their corresponding revenue on the y-axis, effectively showcasing the top 5 selling products by revenue.
 Below is a screenshot of the resulting visualization:
 
@@ -60,7 +60,7 @@ In this screenshot, you can see the clustered column chart displaying the top 5 
 
 The analysis identifies high-impact products in Northwind Traders' inventory, highlighting those with substantial revenue potential and significant market demand. For instance, Côte de Blaye, a top performer, demonstrates exceptional sales compared to other products, likely due to its unique features, competitive pricing, or strong market demand. Leveraging such standout products becomes a crucial strategy for Northwind Traders to drive revenue and enhance profitability.
 
-### WHICH OF THE CATEGORIES MAKE MORE SALES?
+#### WHICH OF THE CATEGORIES MAKE MORE SALES?
 A Clustered Bar Chart was utilized for visualization, focusing on depicting the categories that contribute to sales. This was achieved by configuring the chart as follows:
 The "Category Name" was placed on the Y-axis, categorizing the data vertically.
 The "Total Revenue" was positioned on the X-axis, representing the total revenue horizontally.
@@ -73,7 +73,7 @@ Below is a screenshot of the resulting visualization:
   
 "Beverages" lead revenue, suggesting strong demand. "Dairy Products" follow closely, indicating popularity. "Confections" also perform well. "Meat & Poultry" and "Seafood" contribute notably. "Condiments" and "Produce" provide substantial but slightly lower revenue. "Grains & Cereals" record the lowest revenue, possibly requiring focused marketing efforts. 
 
-### ANALYZE REVENUE TRENDS OVER TIME (MONTHLY)
+#### ANALYZE REVENUE TRENDS OVER TIME (MONTHLY)
 A line chart was employed to examine revenue trends over time. The "Order Day" table was placed on the X-axis, while total revenue was positioned on the Y-axis in the visualization section. To focus solely on monthly trends, the hierarchy of the order table was adjusted to display data at the month level. 
 Below is a screenshot illustrating the resulting visualization
 
@@ -90,7 +90,7 @@ Revenue gradually rises from July to October.
 November maintains robust revenue, likely influenced by holiday sales.
 December concludes the year on a high note with revenue peaking. These insights can inform marketing and inventory strategies, capitalizing on peak months and addressing slower periods.
 
-### WHICH SHIPPING COMPANY IS MORE PREFERABLE BY CUSTOMERS?
+#### WHICH SHIPPING COMPANY IS MORE PREFERABLE BY CUSTOMERS?
 Utilizing a doughnut chart, I gained insights into the preferred shipping company among customers. This was achieved by placing the shipping cost data in the Value section and the shipping company names in the details section, allowing for a clear visualization of customer preferences for shipping providers.
 Below is a screenshot of the resulting visualization:
 
@@ -116,6 +116,7 @@ Optimize shipping expenses by negotiating favorable terms with United Package, w
 ## Conclusion 
 The examination of the Northwind Traders dataset yielded vital insights into category-based revenue, top-performing products, customer-favored shipping providers, and monthly revenue trends. These revelations can empower Northwind Traders to streamline operations, enhance customer contentment, and thrive in the competitive food distribution sector. To ensure continual growth and profitability, persistent monitoring and data-guided choices are imperative. Implementing the suggested enhancements can aid Northwind Traders in refining its sales and marketing approaches, consequently elevating revenue performance. A continuous vigilance over these metrics remains indispensable for sustained achievements in the long run.
 
+[Click here for the .pbix file](url)
 
 
 
