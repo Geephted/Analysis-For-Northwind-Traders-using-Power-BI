@@ -103,6 +103,8 @@ The data reveals varying total shipping costs associated with different companie
 
 ## Dashboard 
 
+This dashboard is designed to visually represent the key insights and analysis from the Northwind Traders dataset . It provides a concise and interactive way to present the most important findings in an easy-to-understand format. 
+
 ![](Dashboard.jpg)
 
 ## Tool Used 
