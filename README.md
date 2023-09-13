@@ -7,7 +7,7 @@ The analysis conducted on the Northwind Traders dataset was both comprehensive a
 
 ## Dataset
 In this analysis, seven distinct data files in CSV format were utilized. Each of these data sets corresponds to a distinct record, encompassing pertinent variables concerning transactions. These datasets are organized with columns that hold various pieces of information for each individual record. Listed below are the dataset 
-[Categories](//github.com/Geephted/Analysis-For-Northwind-Traders-using-Power-BI/blob/main/categories.csv),
+[Categories](//github.com/Geephted/Analysis-For-Northwind-Traders-using-Power-BI/blob/main/categories.csv)
 [Customers](//github.com/Geephted/Analysis-For-Northwind-Traders-using-Power-BI/blob/main/customers.csv),
 [Employees](//github.com/Geephted/Analysis-For-Northwind-Traders-using-Power-BI/blob/main/employees.csv),
 [order_details](//github.com/Geephted/Analysis-For-Northwind-Traders-using-Power-BI/blob/main/order_details.csv),
