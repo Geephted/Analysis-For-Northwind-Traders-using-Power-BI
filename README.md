@@ -40,14 +40,14 @@ Before delving into specific analysis findings, let's review the KPIs:
 3.	Total Discount: The total amount of discounts applied to orders is $121
 4.	Average Shipping Cost: The average cost incurred for shipping is $78
 5.	Total Products: Northwind Traders offers a total of 77 unique products.
-	
+
+![](KPI.jpg)
+ 
 The analysis of the Northwind Traders data aims to gain valuable insights into the operational performance. By exploring all relevant variables available in the dataset, few business questions were answered to better understand and optimize the Northwind Traders operations. Here are a few such questions:
 -	What are the top 5 bestselling product in terms of revenue ?
 -	Which of the categories make more sales ?
 -	Analyze revenue trends over time (Monthly)
 -	Which shipping company is more preferable by customers?
-
-![](KPI.jpg)
 
 #### WHAT ARE THE TOP 5 BESTSELLING PRODUCT IN TERMS OF REVENUE?
 In the visualization section, the x-axis featured product names, while the y-axis displayed total revenue, creating a chart to depict their relationship. To spotlight the top revenue earners, a "Top N" filter was applied, revealing the leading 5 products. A clustered column chart was chosen for its suitability in comparing product names side by side. The result was a clustered column chart with product names on the x-axis and their corresponding revenue on the y-axis, effectively showcasing the top 5 selling products by revenue.
